@@ -1,3 +1,4 @@
 local 
 czwartek 
 i kolejna zmiana
+dev1 czwarta linia 
