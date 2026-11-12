@@ -1,5 +1,5 @@
 
-/*zad1
+#zad1
 CREATE TABLE pracownik (
 	id_pracownika INT PRIMARY KEY AUTO_INCREMENT, 
 	imie VARCHAR(40) NOT NULL,
@@ -15,11 +15,11 @@ INSERT INTO pracownik (imie, nazwisko, data_urodzenia) VALUES
 UPDATE pracownik SET data_urodzenia = "1995-10-04" WHERE id_pracownika = 1;
 
 SELECT * FROM pracownik;
-*/
 
 
 
-/*zad2
+
+#zad2
 CREATE TABLE zadanie (
 	id_zadania INT PRIMARY KEY AUTO_INCREMENT, 
 	nazwa_zadania VARCHAR(150) NOT NULL,
@@ -46,9 +46,9 @@ INSERT INTO zadanie (nazwa_zadania, priorytet, opis, pracownik)
 
 SELECT * FROM zadanie;
 
-*/
 
-/*zad2
+
+#zad3
 CREATE TABLE projekt (
 	id_projektu INT PRIMARY KEY AUTO_INCREMENT,
     nazwa_projektu VARCHAR(150),
@@ -80,7 +80,8 @@ UPDATE zadanie SET projekt = '2' WHERE id_zadania = 2;
 UPDATE zadanie SET projekt = '1' WHERE id_zadania = 3;
 
 SELECT * FROM zadanie;
-*/
+
+#zad4
 
 CREATE TABLE sprint (
 	id_sprintu INT PRIMARY KEY AUTO_INCREMENT,
